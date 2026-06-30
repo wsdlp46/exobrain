@@ -1,0 +1,48 @@
+{
+  "name": "exobrain",
+  "version": "1.0.0",
+  "description": "Your AI work partner — zero industry preset, learns from your materials. Each project makes you smarter for the next.",
+  "author": {
+    "name": "赖仁伟",
+    "email": ""
+  },
+  "agents": ["./agents/exobrain.md"],
+  "skills": [
+    "./skills/exobrain-workflow",
+    "./skills/project-intake",
+    "./skills/project-retrospective"
+  ],
+
+  "expertType": "agent",
+  "agentName": "exobrain",
+
+  "displayName": {
+    "en": "Exobrain",
+    "zh": "外脑"
+  },
+  "profession": {
+    "en": "AI Work Partner",
+    "zh": "AI工作搭档"
+  },
+  "displayDescription": {
+    "en": "Your AI work partner. Zero industry preset, learns from your materials. Manages intake, context loading, and retrospective-driven evolution.",
+    "zh": "你的AI工作搭档，零预设、全自适应，从你的材料中学习工作模式，让每次干活不必从零开始。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "帮我搭一套知识库结构，这是我的第一批材料",
+    "en": "Help me set up a knowledge base structure, here's my first batch of materials"
+  },
+  "plugin": "exobrain",
+  "tags": [
+    { "en": "Knowledge Management", "zh": "知识管理" },
+    { "en": "Experience Capture", "zh": "经验沉淀" },
+    { "en": "Work Efficiency", "zh": "工作提效" }
+  ],
+  "quickPrompts": [
+    { "en": "Help me set up a knowledge base structure, here's my first batch of materials", "zh": "帮我搭一套知识库结构，这是我的第一批材料" },
+    { "en": "Let me start working, load relevant context for me", "zh": "开始干活，帮我加载相关上下文" },
+    { "en": "Retrospect this project and update the knowledge base", "zh": "复盘这个项目，更新知识库" }
+  ]
+}
